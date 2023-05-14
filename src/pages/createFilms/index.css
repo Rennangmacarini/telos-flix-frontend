@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');    
+
+.crateFilms-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 690px;
+    margin-bottom: 450px;
+}   
+
+.crateFilms-container .crateFilms-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    background: #292929;
+    width: 1175px;
+    height: 690px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+
+    padding: 50px 104px 54px 120px;
+}
+
+.crateFilms-container .crateFilms-content .createFilmsTitle{
+    text-align: left;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: rgba(255, 253, 253, 0.65);
+}
+
+.crateFilms-container .crateFilms-content > form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.crateFilms-container .crateFilms-content > form > .input-nameFilm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start ;
+    gap: 5px;
+}
+
+.crateFilms-container .crateFilms-content > form > .input-nameFilm > label{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.crateFilms-container .crateFilms-content > form > .input-nameFilm > input{
+    width: 951px;
+    height: 42px;
+    border: none;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    background: rgba(255, 252, 252, 0.05);
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(255, 255, 255, 0.45);
+
+
+}
+
+.crateFilms-container .crateFilms-content > form > .input-nameFilm > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;  
+    
+    color: rgba(255, 255, 255, 0.45);
+
+    margin-top: 15px;
+}
+
+.crateFilms-container .crateFilms-content > form > .input-descriptionFilm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start ;
+    gap: 5px;
+}
+
+.crateFilms-container .crateFilms-content > form > .input-descriptionFilm > label{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.crateFilms-container .crateFilms-content > form > .input-descriptionFilm > textarea{
+    width: 951px;
+    height: 90px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    background: rgba(255, 252, 252, 0.05);
+    border: none;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.crateFilms-container .crateFilms-content > form > .input-descriptionFilm > textarea::placeholder{
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(255, 255, 255, 0.27);
+}
