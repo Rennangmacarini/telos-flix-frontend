@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import MovieProvider from "../contexts/MovieProvider";
 import Films from "../pages/Films";
 import CreateFilms from "../pages/createFilms";
+import CardsFilms from "../pages/cardsFilms";
 
 
 export default  function AppRoutes() {
@@ -10,7 +11,7 @@ export default  function AppRoutes() {
       <Routes>
         <Route element={
           <MovieProvider>
-          <CreateFilms/>
+          <CardsFilms/>
           </MovieProvider>
         } path="/" exact />
       </Routes>
